@@ -1,12 +1,12 @@
-import 'package:firebase_core/firebase_core.dart';
+// import 'package:firebase_core/firebase_core.dart';
 import 'package:shopping_list/screens/grocery_list_screen.dart';
-import 'package:shopping_list/firebase_options.dart';
+// import 'package:shopping_list/firebase_options.dart';
 import 'package:flutter/material.dart';
 
-void main() async {
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+void main() {
+  // await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
 
   runApp(const MyApp());
 }
